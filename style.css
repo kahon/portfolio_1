@@ -119,16 +119,21 @@ body {
 #box-works {
     margin: 80px 0 0;
     padding: 0 20px 10px;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .works-list {
+    display: flex;
+    justify-content: center;
     list-style: none;
     width: 100%;
     max-width: 1076px;
+    text-align: left;
     margin: 30px auto;
     padding: 0;
-    text-align: left;
     overflow: hidden;
+
 }
 
 .works-list li {
